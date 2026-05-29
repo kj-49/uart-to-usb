@@ -3078,7 +3078,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 119.0752 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -3315,7 +3315,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 55.88 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -3442,7 +3442,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 112.7252 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -3524,7 +3524,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 79.502 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -3606,7 +3606,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 90.932 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -3688,7 +3688,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 82.2452 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -3769,7 +3769,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 108.9152 44.45 0)
 			(hide yes)
 			(show_name no)

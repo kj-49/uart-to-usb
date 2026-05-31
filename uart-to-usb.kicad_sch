@@ -2183,12 +2183,6 @@
 		)
 	)
 	(junction
-		(at 196.85 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "04e34980-a247-407e-a691-31880626a1d2")
-	)
-	(junction
 		(at 143.51 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2213,12 +2207,6 @@
 		(uuid "6d49b58f-d0dd-4e12-842d-4022bcb8e945")
 	)
 	(junction
-		(at 194.31 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9f7c96c1-fba1-41d6-befe-0150771a33fb")
-	)
-	(junction
 		(at 146.05 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2235,16 +2223,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed29163f-433a-4583-b864-643083162fb8")
-	)
-	(wire
-		(pts
-			(xy 194.31 88.9) (xy 203.2 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00106605-5542-4b65-9117-0bbc45640d28")
 	)
 	(wire
 		(pts
@@ -2275,26 +2253,6 @@
 			(type default)
 		)
 		(uuid "0e8d810b-c821-4f17-ad53-7bf86119ea0a")
-	)
-	(wire
-		(pts
-			(xy 194.31 80.01) (xy 194.31 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13b16b36-efe4-4739-9859-d5901ebb96f6")
-	)
-	(wire
-		(pts
-			(xy 196.85 77.47) (xy 196.85 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cbbc3c0-4ddd-49fc-b3ad-3017e7dd6cfc")
 	)
 	(wire
 		(pts
@@ -2558,16 +2516,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 80.01) (xy 194.31 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3aad5dc-7496-47d5-bdfe-48dc71d8a61f")
-	)
-	(wire
-		(pts
 			(xy 113.03 36.83) (xy 118.11 36.83)
 		)
 		(stroke
@@ -2588,33 +2536,13 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 86.36) (xy 203.2 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef398ae0-2bdb-4598-b9dd-72f8ed4a0d63")
-	)
-	(wire
-		(pts
-			(xy 196.85 77.47) (xy 203.2 77.47)
+			(xy 163.83 77.47) (xy 203.2 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f090de31-968f-4c3a-a201-d5f3189dcc6d")
-	)
-	(wire
-		(pts
-			(xy 163.83 77.47) (xy 196.85 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1b41c7c-7497-4ce7-85cc-0bb0fa4370f8")
 	)
 	(wire
 		(pts
@@ -2625,16 +2553,6 @@
 			(type default)
 		)
 		(uuid "f2d2dbc8-282e-4302-90df-cdec19eea112")
-	)
-	(wire
-		(pts
-			(xy 194.31 80.01) (xy 203.2 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9e06bff-3f3f-4e19-bd3e-4494db9224f1")
 	)
 	(wire
 		(pts
@@ -2883,88 +2801,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 208.28 88.9 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1935c501-8545-4801-88d6-f3410240bdd5")
-		(property "Reference" "J3"
-			(at 209.55 86.3599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 209.55 88.8999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_1x02_P2.00mm_Horizontal"
-			(at 208.28 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 208.28 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3e14cdb5-0a84-4c78-9675-a5d0028c3ab7")
-		)
-		(pin "2"
-			(uuid "f26dcc78-a882-487a-8e9d-d741e7c8b488")
-		)
-		(instances
-			(project "uart-to-usb"
-				(path "/bba0d1c0-0815-4255-9c21-1ba5a01ec5bc"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 81.28 69.85 0)
 		(unit 1)
@@ -3115,6 +2951,84 @@
 			(project "uart-to-usb"
 				(path "/bba0d1c0-0815-4255-9c21-1ba5a01ec5bc"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 203.2 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a67d20d-01bb-4a13-baa6-49dfb62daf7b")
+		(property "Reference" "#PWR011"
+			(at 203.2 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.2 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 203.2 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d7a00aef-58bb-4a89-8e73-f7397feb7364")
+		)
+		(instances
+			(project "uart-to-usb"
+				(path "/bba0d1c0-0815-4255-9c21-1ba5a01ec5bc"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)

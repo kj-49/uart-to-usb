@@ -3179,6 +3179,17 @@
 				)
 			)
 		)
+		(property "LSCS" "C1746"
+			(at 118.11 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1377aa7e-0ff2-408b-8150-375c7bd8e6a5")
 		)
@@ -3416,6 +3427,17 @@
 				)
 			)
 		)
+		(property "LSCS" "C3020560"
+			(at 52.07 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A4"
 			(uuid "4bfda30b-bac5-4026-a64d-71da0d65d423")
 		)
@@ -3543,6 +3565,17 @@
 				)
 			)
 		)
+		(property "LSCS" "C1711"
+			(at 111.76 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c6f03ae7-a825-4c7a-8b60-9bde6823f106")
 		)
@@ -3592,7 +3625,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 79.502 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -3615,6 +3648,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 81.28 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LSCS" "C23186"
 			(at 81.28 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -3674,7 +3718,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 90.932 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -3697,6 +3741,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 92.71 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LSCS" "C23186"
 			(at 92.71 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -3789,6 +3844,17 @@
 				)
 			)
 		)
+		(property "LSCS" "C1710"
+			(at 81.28 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f6c10170-fc1c-42f0-a222-79447d840e2c")
 		)
@@ -3860,6 +3926,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 107.95 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LSCS" "C1711"
 			(at 107.95 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -4030,6 +4107,17 @@
 				)
 			)
 		)
+		(property "LSCS" "C8690"
+			(at 143.51 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "da6d509d-f8e0-435d-9375-30466e7b5ea4")
 		)
@@ -4174,6 +4262,17 @@
 			)
 		)
 		(property "Description" "Ferrite bead"
+			(at 72.39 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LSCS" "C1009"
 			(at 72.39 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -4334,6 +4433,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 208.28 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LSCS" "C189893"
 			(at 208.28 80.01 0)
 			(hide yes)
 			(show_name no)

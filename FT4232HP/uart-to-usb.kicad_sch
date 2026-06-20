@@ -5,7 +5,7 @@
 	(uuid "bba0d1c0-0815-4255-9c21-1ba5a01ec5bc")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x05_Socket"
+		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -16,7 +16,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 0 7.62 0)
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -25,7 +25,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x05_Socket"
+			(property "Value" "Conn_01x04_Pin"
 				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -57,7 +57,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x05, script generated"
+			(property "Description" "Generic connector, single row, 01x04, script generated"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -100,22 +100,54 @@
 					)
 				)
 			)
-			(symbol "Conn_01x05_Socket_1_1"
-				(polyline
-					(pts
-						(xy -1.27 5.08) (xy -0.508 5.08)
-					)
+			(symbol "Conn_01x04_Pin_1_1"
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
 					(pts
-						(xy -1.27 2.54) (xy -0.508 2.54)
+						(xy 1.27 2.54) (xy 0.8636 2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -127,7 +159,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 0) (xy -0.508 0)
+						(xy 1.27 0) (xy 0.8636 0)
 					)
 					(stroke
 						(width 0.1524)
@@ -139,7 +171,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -151,68 +183,8 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -5.08) (xy -0.508 -5.08)
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
 					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 4.572)
-					(mid -0.5058 5.08)
-					(end 0 5.588)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 2.032)
-					(mid -0.5058 2.54)
-					(end 0 3.048)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.508)
-					(mid -0.5058 0)
-					(end 0 0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -3.048)
-					(mid -0.5058 -2.54)
-					(end 0 -2.032)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -5.588)
-					(mid -0.5058 -5.08)
-					(end 0 -4.572)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -222,7 +194,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at 5.08 2.54 180)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -240,7 +212,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at 5.08 0 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -258,7 +230,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at 5.08 -2.54 180)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -276,7 +248,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at 5.08 -5.08 180)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -286,24 +258,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3675,16 +3629,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 50.8) (xy 259.08 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21729826-11dd-4c77-8d9b-f23a82def1da")
-	)
-	(wire
-		(pts
 			(xy 147.32 78.74) (xy 147.32 88.9)
 		)
 		(stroke
@@ -3705,7 +3649,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 48.26) (xy 259.08 48.26)
+			(xy 247.65 50.8) (xy 265.43 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3965,6 +3909,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 53.34) (xy 259.08 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c2b7254-0730-48ec-99b0-e00f0157d8e6")
+	)
+	(wire
+		(pts
 			(xy 72.39 62.23) (xy 81.28 62.23)
 		)
 		(stroke
@@ -3982,16 +3936,6 @@
 			(type default)
 		)
 		(uuid "92cd6340-05fe-4f17-b8de-c1bea0cc133f")
-	)
-	(wire
-		(pts
-			(xy 214.63 111.76) (xy 219.71 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98387737-6d86-4fff-98c4-9b33a2adbeb6")
 	)
 	(wire
 		(pts
@@ -4125,6 +4069,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 48.26) (xy 265.43 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5f35abd-2898-47f4-a9cf-38cccd378bd3")
+	)
+	(wire
+		(pts
 			(xy 196.85 25.4) (xy 196.85 29.21)
 		)
 		(stroke
@@ -4162,16 +4116,6 @@
 			(type default)
 		)
 		(uuid "e122fe43-a613-4efa-98db-d4717db6a498")
-	)
-	(wire
-		(pts
-			(xy 247.65 45.72) (xy 259.08 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1307f82-45ed-4e19-b328-98d04080ee9f")
 	)
 	(wire
 		(pts
@@ -4265,7 +4209,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 43.18) (xy 259.08 43.18)
+			(xy 247.65 45.72) (xy 265.43 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4304,7 +4248,7 @@
 		(uuid "14547aef-1962-4494-bb7f-b95e0d088f78")
 	)
 	(label "MCU_TX_A"
-		(at 247.65 43.18 0)
+		(at 247.65 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4334,7 +4278,7 @@
 		(uuid "2fd55799-ad3f-40ea-b4b7-3aca5f215e3e")
 	)
 	(label "MCU_TX_B"
-		(at 247.65 45.72 0)
+		(at 247.65 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4352,16 +4296,6 @@
 			(justify left bottom)
 		)
 		(uuid "6c660b3a-26f7-479c-abd2-9960c344d67d")
-	)
-	(label "MCU_TX_D"
-		(at 247.65 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "745ed57e-8c9b-46e2-9744-8bc2dc24738c")
 	)
 	(label "SBU1"
 		(at 67.31 102.87 0)
@@ -4403,18 +4337,8 @@
 		)
 		(uuid "a9cdbe90-c5f6-4f56-b120-36e780b13b86")
 	)
-	(label "MCU_TX_D"
-		(at 219.71 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cfc29551-552a-4e70-9fff-b9efb8112805")
-	)
 	(label "MCU_TX_C"
-		(at 247.65 48.26 0)
+		(at 247.65 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5035,8 +4959,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x05_Socket")
-		(at 264.16 48.26 0)
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 270.51 48.26 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5044,32 +4969,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3711b9bd-9752-4f93-b31e-9192b6fb3bd4")
 		(property "Reference" "J2"
-			(at 265.43 46.9899 0)
+			(at 269.875 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x05_Socket"
-			(at 265.43 49.5299 0)
+		(property "Value" "Conn_01x04_Pin"
+			(at 269.875 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S5B-XH-A_1x05_P2.50mm_Horizontal"
-			(at 264.16 48.26 0)
+		(property "Footprint" "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal"
+			(at 270.51 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5080,7 +5002,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 48.26 0)
+			(at 270.51 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5091,7 +5013,18 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 264.16 48.26 0)
+			(at 270.51 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C157925"
+			(at 270.51 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5112,9 +5045,6 @@
 		)
 		(pin "4"
 			(uuid "ebd9fa10-cb18-4159-919e-6a7a62230770")
-		)
-		(pin "5"
-			(uuid "3dd9e4f6-f46c-43cd-b5f6-2b761c9f2cc4")
 		)
 		(instances
 			(project "uart-to-usb"

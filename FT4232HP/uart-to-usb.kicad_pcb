@@ -2852,6 +2852,7 @@
 		(property "Reference" "U1"
 			(at 0 -5.8 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "55531a51-c770-4561-bed1-86682d587965")
 			(effects
 				(font
@@ -4247,7 +4248,7 @@
 			(uuid "4e2de16e-aa2a-4522-9821-3b58e2ebedd2")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-64-1EP_9x9mm_P0.5mm_EP7.5x7.5mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-64-1EP_9x9mm_P0.5mm_EP6x6mm.step"
 			(offset
 				(xyz 0 0 0)
 			)

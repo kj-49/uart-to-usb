@@ -1,5 +1,5 @@
 ## UART to USB
 
-A simple PCB that allows you to listen to microcontroller UART through a USB-C cable. Simply hook up your microcontroller TX and GND to the PCB, and open a serial listener like PuTTy to start viewing the data.
+A simple chip that converts up to 3 UART lines to USB. Only supports one-way transmission from UART to USB.
 
 ![3d](/FT4232HP/uart-to-usb.png)
